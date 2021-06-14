@@ -9,6 +9,12 @@ public class NO3 {
         int[] nums = {2,3,1,0,2,5,3};
         System.out.println(findRepeatNumber(nums));
     }
+    /**
+     * findRepeatNumber
+     * @param nums 
+     * @return int 
+     * @create 2021/6/14 16:55
+     */
     public static int findRepeatNumber(int[] nums) {
         for(int i = 0;i<nums.length;++i){
             while(i!=nums[i]){
